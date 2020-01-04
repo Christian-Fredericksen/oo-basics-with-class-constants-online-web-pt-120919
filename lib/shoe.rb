@@ -6,9 +6,8 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.include? do |name|
-      if brand != brand
     BRANDS << brand
+    
       end
     end
   end
